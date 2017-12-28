@@ -8,4 +8,26 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="bottomMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_gravity">center|bottom</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="menu">@menu/main</item>
+    </style>
+
+    <style name="bottomMenuSelectionsNumber">
+        <item name="android:text">3</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@drawable/bottom_menu_selections_number_bg</item>
+    </style>
+
 </resources>
